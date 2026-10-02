@@ -1,0 +1,52 @@
+@baseUrl = http://localhost:5078
+
+### Health check
+GET {{baseUrl}}/health
+
+### Login as admin
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "Admin!234"
+}
+
+### Login as user
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "User!234"
+}
+
+### Create record
+POST {{baseUrl}}/api/vault/records
+Content-Type: application/json
+Authorization: Bearer PUT_TOKEN_HERE
+
+{
+  "title": "Payroll Export",
+  "secretValue": "Confidential payroll file location",
+  "notes": "Only HR and Finance should access this information."
+}
+
+### Try unsafe record
+POST {{baseUrl}}/api/vault/records
+Content-Type: application/json
+Authorization: Bearer PUT_TOKEN_HERE
+
+{
+  "title": "' OR 1=1 --",
+  "secretValue": "attack",
+  "notes": "<script>alert('xss')</script>"
+}
+
+### Get records
+GET {{baseUrl}}/api/vault/records
+Authorization: Bearer PUT_TOKEN_HERE
+
+### Admin dashboard
+GET {{baseUrl}}/api/admin/dashboard
+Authorization: Bearer PUT_TOKEN_HERE

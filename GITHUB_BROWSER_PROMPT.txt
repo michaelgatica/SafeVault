@@ -1,0 +1,24 @@
+Help me create and upload my final SafeVault secure coding project to GitHub using the GitHub website.
+
+Use these settings:
+- Repository name: SafeVault
+- Visibility: Public
+- Description: ASP.NET Core secure coding project with input validation, SQL injection prevention, authentication, RBAC, XSS protection, middleware, and security tests.
+- Initial commit message: Initial SafeVault secure coding project
+
+Important upload instructions:
+- I will unzip the project first.
+- Do not upload the zip file itself.
+- Upload the contents of the SafeVault folder so the repository root contains:
+  - SafeVault.sln
+  - README.md
+  - SECURITY_SUMMARY.md
+  - COPILOT_SUMMARY.md
+  - TEST_PLAN.md
+  - src/
+  - tests/
+- Make sure the repository root is not an extra nested folder.
+- After uploading, commit the files.
+- After the commit completes, show me the repository URL so I can submit it for my assignment.
+
+Please guide me step by step through the current GitHub web interface and pause whenever I need to choose files from my computer.

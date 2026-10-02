@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeVaultApp", "src\SafeVaultApp\SafeVaultApp.csproj", "{736706A0-5B4F-49EB-98EB-3204AD30C358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeVaultTests", "tests\SafeVaultTests\SafeVaultTests.csproj", "{591B0B60-EE6C-4A5F-AF6F-61AD7EBACDE6}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {736706A0-5B4F-49EB-98EB-3204AD30C358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {736706A0-5B4F-49EB-98EB-3204AD30C358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {736706A0-5B4F-49EB-98EB-3204AD30C358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {736706A0-5B4F-49EB-98EB-3204AD30C358}.Release|Any CPU.Build.0 = Release|Any CPU
+        {591B0B60-EE6C-4A5F-AF6F-61AD7EBACDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {591B0B60-EE6C-4A5F-AF6F-61AD7EBACDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {591B0B60-EE6C-4A5F-AF6F-61AD7EBACDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {591B0B60-EE6C-4A5F-AF6F-61AD7EBACDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+EndGlobal
